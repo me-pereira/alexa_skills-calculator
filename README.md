@@ -1,2 +1,3 @@
-# alexa-skills
-Up-to-date Alexa skills that I developed along my Python learning path.
+# alexa_skills-calculator
+
+A calculator skill for Alexa, developed as a lambda function, ready to be imported to AWS Alexa Developer Console
