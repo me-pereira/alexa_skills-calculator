@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:195329624986:function:a687f446-9ff2-4628-8f91-c119e8d135a7:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:195329624986:function:a687f446-9ff2-4628-8f91-c119e8d135a7:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:195329624986:function:a687f446-9ff2-4628-8f91-c119e8d135a7:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:195329624986:function:a687f446-9ff2-4628-8f91-c119e8d135a7:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "name": "calcular"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

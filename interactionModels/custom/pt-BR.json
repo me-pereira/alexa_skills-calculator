@@ -1,0 +1,102 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "calcular agora",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SomaIntent",
+          "slots": [
+            {
+              "name": "primeironumerosoma",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "segundonumerosoma",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "some números {primeironumerosoma} com {segundonumerosoma}",
+            "soma {primeironumerosoma} com {segundonumerosoma}",
+            "somar {primeironumerosoma} com {segundonumerosoma}",
+            "some {primeironumerosoma} com {segundonumerosoma}"
+          ]
+        },
+        {
+          "name": "SubtracaoIntent",
+          "slots": [
+            {
+              "name": "primeironumerosubtracao",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "segundonumerosubtracao",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "subtrair números {primeironumerosubtracao} de {segundonumerosubtracao}",
+            "subtração {primeironumerosubtracao} de {segundonumerosubtracao}",
+            "subtrair {primeironumerosubtracao} de {segundonumerosubtracao}"
+          ]
+        },
+        {
+          "name": "MultiplicacaoIntent",
+          "slots": [
+            {
+              "name": "primeironumeromultiplicacao",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "segundonumeromultiplicacao",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "multiplicar números {primeironumeromultiplicacao} por {segundonumeromultiplicacao}",
+            "multiplicação {primeironumeromultiplicacao} por {segundonumeromultiplicacao}",
+            "multiplicar {primeironumeromultiplicacao} por {segundonumeromultiplicacao}"
+          ]
+        },
+        {
+          "name": "DivisaoIntent",
+          "slots": [
+            {
+              "name": "primeironumerodivisao",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "segundonumerodivisao",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "dividir {primeironumerodivisao} por {segundonumerodivisao}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}
